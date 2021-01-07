@@ -1,0 +1,151 @@
+html {
+    width: 100%;
+    height: 100%;
+    /* background-image: url(https://api.berryapi.net/?service=App.Bing.Images); */
+    background-image: url(../img/img/mc2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+* {
+    user-select: none;
+}
+
+.calculator {
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    height: 475px;
+    background-color: rgba(253, 253, 253, 0.788);
+    padding: 5px 10px;
+}
+
+.head {
+    width: 100%;
+    height: 30px;
+}
+
+.leftText {
+    height: 20px;
+    width: 60px;
+    margin-top: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.rightBtn div {
+    transition: 0.1s ease;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 3px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+    -webkit-transition: 0.1s ease;
+    -moz-transition: 0.1s ease;
+    -ms-transition: 0.1s ease;
+    -o-transition: 0.1s ease;
+}
+
+.calculator .head .deleteItem:hover {
+    background-color: rgba(233, 44, 44, 0.664);
+}
+
+.calculatorAll {
+    width: 100%;
+    height: 25px;
+    text-align: right;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    /* background-color: darkseagreen; */
+}
+
+.calculatorInput {
+    text-align: right;
+    font-weight: bolder;
+    line-height: 40px;
+    font-size: 25px;
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    /* background-color: gold; */
+}
+
+.bodyOthers {
+    padding: 0 10px;
+    /* width: 100%; */
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activeOthers {
+    color: #bebbb4;
+}
+
+.foot {
+    margin-top: 15px;
+    /* 4*80=320 +30 */
+    width: 360px;
+    /* 6*60=480 */
+    height: 330px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    border-radius: 5px;
+    transition: 0.1s ease;
+    cursor: pointer;
+    display: inline-block;
+    width: 87px;
+    height: 50px;
+    background-color: #fcfbf9e1;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+    -webkit-transition: 0.1s ease;
+    -moz-transition: 0.1s ease;
+    -ms-transition: 0.1s ease;
+    -o-transition: 0.1s ease;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.item:hover {
+    background-color: rgba(156, 156, 156, 0.438);
+}
+
+.itemDo {
+    background-color: #f0f0f0ce;
+    font-weight: normal;
+}
+
+.iconfontDelete {
+    font-size: 16px;
+}
+
+.itemLast {
+    background-color: rgba(118, 184, 224, 0.836);
+}
+
+.itemLast:hover {
+    background-color: rgba(42, 148, 214, 0.801);
+}
